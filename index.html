@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1">
+    <link rel="stylesheet" href="main.css" type="text/css">
+    <script src="https://kit.fontawesome.com/8fd2318c6e.js" crossorigin="anonymous"></script>
+    <meta name="description" content="Personal Portfolio Full-stack Webdev Frontend Backend Bulgaria">
+    <title>Portfolio</title>
+</head>
+<body class="bg-light" data-spy="scroll" data-target="#navigation" data-offset="0" id="top">
+    <div class="container-fluid m-0 p-0">
+        <!-- nav -->
+        <nav class="navbar navbar-expand navbar-dark bg-secondary justify-content-center sticky-top">
+            <ul class="navbar-nav" id="navigation">
+                <li class="nav-item">
+                    <a href="#top" class="nav-link">Introduction</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+            </ul>
+        </nav>
+        <!-- kbd image -->
+        <div class="jumbotron-fluid text-white text-center" id="introduction">
+            <div class="row h-100 w-100 p-0 m-0">
+                <div class="col-12 align-self-center" id="introduction-content">
+                    <h1 class="display-3">Hello.</h1>
+                    <p class="lead">I am a full stack developer who strives to make interesting things.</p>
+                    <hr class="border border-secondary w-25">
+                    <a href="#projects" class="btn btn-secondary">View My Work</a>
+                </div>
+            </div>
+        </div>
+        <!-- projects hero -->
+        <div class="jumbotron-fluid p-3 bg-primary text-light text-center" id="projects">
+            <h2 class="display-4">Projects</h1>
+        </div>
+        <!-- projects cards -->
+        <div class="row m-4">
+            <div class="col-xs-12 col-xl-4 mb-4">
+                <div class="card p-4 mb-4 h-100">
+                    <!-- first portfolio object landmark -->
+                    <div class="card-img-top mb-4 flex-grow-1">
+                        <a href="http://ancient-bayou-15522.herokuapp.com/" target="_blank"><img src="./images/imgboard.png" class="border border-dark h-100 img-fluid" alt="Website with a gallery of images."></a>
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title text-secondary">Imageboard Application</h3>
+                        <p class="card-text">App that allows users to upload images. Features session-based authentication, a views and favorites system for each image, commenting system and search functionality. Each image is compressed upon upload for optimization purposes using Node.js</p>
+                        <div class="d-flex justify-content-center">
+                            <a href="http://ancient-bayou-15522.herokuapp.com/" class="btn btn-primary mx-2" target="_blank">View</a>
+                            <a href="https://github.com/allden/symmetrical-lamp" class="btn btn-primary mx-2 px-3" target="_blank">
+                                <span class="sr-only">Github</span>
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-xl-4 mb-4">
+                <div class="card p-4 mb-4 h-100">
+                    <div class="card-img-top mb-4 flex-grow-1">
+                        <!-- second portfolio project landmark -->
+                        <a href="https://secure-savannah-35977.herokuapp.com/" target="_blank"><img src="./images/chatApp.png" class="border border-dark h-100 img-fluid" alt="Image of a chat application website."></a>
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title text-secondary">Chat Application</h3>
+                        <p class="card-text">Made using Node.JS, vanilla JavaScript, Bootstrap, SASS, MongoDB and Socket.IO. It allows the user to engage in a chat with other users in real-time.</p>
+                        <div class="d-flex justify-content-center">
+                            <a href="https://secure-savannah-35977.herokuapp.com/" class="btn btn-primary mx-2" target="_blank">View</a>
+                            <a href="https://github.com/allden/fantastic-waffle" class="btn btn-primary mx-2 px-3" target="_blank">
+                                <span class="sr-only">Github</span>
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-xl-4 mb-4">
+                <div class="card p-4 mb-4 h-100">
+                    <div class="card-img-top mb-4 flex-grow-1">
+                        <!-- second portfolio project landmark -->
+                        <a href="https://allden.github.io/React-Blog-Frontend-Unbuilt/" target="_blank"><img src="./images/blog.png" class="border border-dark h-100 img-fluid" alt="Image of a blog website."></a>
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title text-secondary">Blog Application</h3>
+                        <p class="card-text">Single page application made in React with a custom backend REST API. Features JWT-based authentication, the application uses AJAX to fetch posts and comments.</p>
+                        <div class="d-flex justify-content-center">
+                            <a href="https://allden.github.io/React-Blog-Frontend-Unbuilt/" class="btn btn-primary mx-2" target="_blank">View</a>
+                            <a href="https://github.com/allden/React-Blog-Frontend-Unbuilt" class="btn btn-primary mx-2 px-3" target="_blank">
+                                <span class="sr-only">Github</span>
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- skills hero -->
+        <div class="jumbotron-fluid p-3 bg-primary text-light text-center" id="skills">
+            <h2 class="display-4">Skills</h3>
+        </div>
+        <!-- skills -->
+        <div class="row m-4">
+            <div class="col-12 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="card-title text-secondary mb-4">Frontend</h3>
+                        <div class="skill-grid">
+                            <img src="./images/logos/html5.svg" alt="HTML5 logo. An orange shield with the letters HTML on top.">
+                            <img src="./images/logos/css3.svg" alt="CSS3 logo. A blue shield with the letters CSS on top.">
+                            <img src="./images/logos/js.svg" alt="JavaScript unofficial logo. The letters JS against a yellow background.">
+                            <img src="./images/logos/react.svg" alt="React logo. An light blue atom.">
+                            <img src="./images/logos/bootstrap.svg" alt="Bootstrap logo. A large B against a purple background.">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="card-title text-secondary mb-4">Backend</h3>
+                        <div class="skill-grid">
+                            <img src="./images/logos/node.svg" alt="Node.JS logo. Hexagonal lettering spelling Node.JS.">
+                            <img src="./images/logos/mongo.svg" alt="MongoDB logo. A leaf with MongoDB on its right.">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="card-title text-secondary mb-4">Other</h3>
+                        <div class="skill-grid">
+                            <img src="./images/logos/github.svg" alt="Github logo. A cat with a tentacle for its arm.">
+                            <img src="./images/logos/git.svg" alt="Git logo. A red diamond shape with the word Git on the right.">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="bg-primary p-3 text-center text-light d-flex align-items-center justify-content-center">
+            <p class="p-0 m-0">&copy; 2020 Allden All Rights Reserved</p>
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>
