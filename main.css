@@ -10850,4 +10850,9 @@ a.text-dark:hover, a.text-dark:focus {
       -ms-flex-positive: 0 !important;
           flex-grow: 0 !important;
 }
+
+.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
 /*# sourceMappingURL=main.css.map */
